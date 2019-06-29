@@ -2,14 +2,13 @@
  * @Author: suxiao
  * @Date: 2019-06-29 12:32:04
  * @LastEditors: suxiao
- * @LastEditTime: 2019-06-29 21:38:30
+ * @LastEditTime: 2019-06-29 21:43:30
  * @Description: 头部注释-介绍开发人员信息
  * @新建文件，养成良好的编码习惯
  */
 /**
  * @description: [基础类]
- * @param {*} ele [声明一个类，主要用于生成首节点]
- * @return {object} result [返回一个对象]
+ * @return {class} result [返回一个类]
  */
 let _len = Symbol('_len')
 class Node {
@@ -19,7 +18,20 @@ class Node {
     this.previous = null;
   }
 }
-
+/**
+ * @desc: 单向链表类
+ * @ADT模型
+ *
+ *@function find(ele): [根据element查找其在链表中的节点]
+ *@function findPre(ele): [根据element查找当前节点上一个节点]
+ *@function insert(ele,item): [在已知节点后面向链表插入一个元素]
+ *@function remove(): [删除一个节点]
+ *@function display(): [显示链表中的元素]
+ *@function show(): [只显示当前节点]
+ *@function advance(n): [使当前节点向前移动n个节点]
+ *@function isEmpty(): [判断链表是否为空]
+ *@function size(n): [返回链表节点数]
+ */
 class Link {
   constructor() {
     this.head = new Node('head');
