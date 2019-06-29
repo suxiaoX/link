@@ -2,7 +2,7 @@
  * @Author: suxiao
  * @Date: 2019-06-29 12:32:04
  * @LastEditors: suxiao
- * @LastEditTime: 2019-06-29 21:32:48
+ * @LastEditTime: 2019-06-29 21:33:58
  * @Description: 头部注释-介绍开发人员信息
  * @新建文件，养成良好的编码习惯
  */
@@ -123,3 +123,6 @@ class Link {
     return this[_len];
   }
 }
+
+const link = new Link();
+link.insert('aaa', 'head');
