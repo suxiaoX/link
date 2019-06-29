@@ -2,7 +2,7 @@
  * @Author: suxiao
  * @Date: 2019-06-29 12:32:04
  * @LastEditors: suxiao
- * @LastEditTime: 2019-06-29 21:33:58
+ * @LastEditTime: 2019-06-29 21:38:30
  * @Description: 头部注释-介绍开发人员信息
  * @新建文件，养成良好的编码习惯
  */
@@ -24,7 +24,7 @@ class Link {
   constructor() {
     this.head = new Node('head');
     this.currentNode = this.head;
-    this[_len] = 0;
+    this[_len] = 1;
   }
   /**
    * @description: [根据节点值查找链表]
@@ -94,7 +94,7 @@ class Link {
     return this.currentNode.element;
   }
   /**
-   * @description: [节点向前移动N个位置]
+   * @description: [当前节点（this.currentNode）向前移动N个位置]
    * @param {Number} n [移动的位数]
    * @return {Object} result [新的节点]
    */
@@ -126,3 +126,7 @@ class Link {
 
 const link = new Link();
 link.insert('aaa', 'head');
+link.insert('bbb', 'aaa');
+link.advance(2);
+console.log(link.show());
+console.log(link.size())
