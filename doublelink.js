@@ -2,7 +2,7 @@
  * @Author: suxiao
  * @Date: 2019-06-29 12:32:11
  * @LastEditors: suxiao
- * @LastEditTime: 2019-06-29 22:04:29
+ * @LastEditTime: 2019-06-29 22:05:08
  * @Description: 头部注释-介绍开发人员信息
  * @新建文件，养成良好的编码习惯
  */
@@ -15,14 +15,8 @@ class Node {
 }
 
 /**
- * @description: [双向链表]
+ * @description: [双向链表,和单向链表差不多，这里就不做过多注释]
  * @ADT [基于class实现]
- * 
- * 
- * 
- * 
- * 
- * 
  * 
  * @return {class} result [返回一个链表基础类]
  */
