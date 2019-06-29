@@ -2,7 +2,7 @@
  * @Author: suxiao
  * @Date: 2019-06-29 12:32:04
  * @LastEditors: suxiao
- * @LastEditTime: 2019-06-29 21:43:30
+ * @LastEditTime: 2019-06-29 21:45:11
  * @Description: 头部注释-介绍开发人员信息
  * @新建文件，养成良好的编码习惯
  */
@@ -25,7 +25,7 @@ class Node {
  *@function find(ele): [根据element查找其在链表中的节点]
  *@function findPre(ele): [根据element查找当前节点上一个节点]
  *@function insert(ele,item): [在已知节点后面向链表插入一个元素]
- *@function remove(): [删除一个节点]
+ *@function remove(ele): [删除一个节点]
  *@function display(): [显示链表中的元素]
  *@function show(): [只显示当前节点]
  *@function advance(n): [使当前节点向前移动n个节点]
